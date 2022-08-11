@@ -40,7 +40,12 @@ class MainActivity : AppCompatActivity() {
             ).apply {
                 view.setBackgroundResource(R.color.orange)
                 setTextColor(Color.WHITE)
-                setAction("DISMISS") { dismiss() }
+                setAction("DISMISS"){
+                    dismiss()
+                }
+                setActionTextColor(Color.WHITE)
+
+
                 show()
             }
         }

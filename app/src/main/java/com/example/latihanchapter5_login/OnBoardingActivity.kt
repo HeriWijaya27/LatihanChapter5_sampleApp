@@ -21,7 +21,6 @@ class OnBoardingActivity : AppCompatActivity() {
             vpOnBoarding.adapter = viewPagerAdapter
             tvSkip.setOnClickListener {
                 toLoginPage()
-
             }
             vpOnBoarding.registerOnPageChangeCallback(object :
                 ViewPager2.OnPageChangeCallback() {
